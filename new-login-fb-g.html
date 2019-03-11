@@ -1,0 +1,54 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="isha.css">
+<div class="main-body p-top">
+  <div class="login-box">
+    <i class="fa fa-times pull-right p-5" aria-hidden="true"></i>
+    <div class="box-p-lr">
+      <div class="header text-center m-btm">
+        <div class="title-text"><b>Login</b></div>
+        <div class="f-16 sub-title-color">Log in to your Isha Profile</div>
+      </div>
+      <div class="main text-center m-top-xl">
+        <div class="">
+          <button type="button" class="btn btn-primary" (click)="loginWithFacebook()">
+              <div class="fb-svg icon-align"></div>
+              <div class="f-18 inline text-left">Continue with Facebook
+                <div class="f-13">We wont post without asking</div>
+              </div>
+          </button>
+        </div>
+        <div class="m-top">
+          <button type="button" class="btn btn-default" (click)="loginWithGoogle()">
+                <div class="google-svg icon-align m-top-sm"></div>
+                <div class="inline f-18 g-text">Continue with Google</div>
+          </button>
+        </div>
+        <div class="isha-color f-16">
+          <b>  Or, Sign in using Email ID </b>
+        </div>
+      </div>
+      <div class="footer m-btm m-top-xxl md-device">
+                <div class="p-top f-14">
+                    <div>Don’t yet have an account?</div>
+                    <div class="isha-text inline f-16">Sign Up</div>
+                    <div class="isha-text inline shift-right">Terms of service</div>
+                </div>
+            </div>
+    </div>
+  </div>
+</div>
+<div class="logo">
+  <img src="../../../assets/isha-foundation.jpg" alt="logo" />
+</div>
+
+<!--use for login page only-->
+<style>
+@media screen and (max-width: 400px){
+    .box-p-lr{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+</style>
